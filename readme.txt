@@ -1,0 +1,1 @@
+- ajouter QRcode sur le cv pour acceder au site
