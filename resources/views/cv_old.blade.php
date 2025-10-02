@@ -62,7 +62,8 @@
                             <li>Ajout de la géo-lacalisation des clients France</li>
                             <li>Création de script AJAX pour l'affichage de graphiques de statistiques</li>
                             <li>Maintenance de la base de donnée Mysql</li>
-                        </ul></div>
+                        </ul>
+                    </div>
                 </div>
                 <div class="d-flex flex-row">
                     <div class="cv_date p-2">2020 - 2015</div>
@@ -71,7 +72,8 @@
                             <li><img class="rounded" src="{{ asset('images/logo/alpcom.png') }}"></li>
                             <li>Technicien SAV pour la société <strong>Alpcom</strong></li>
                             <li>Dépannage d'autocommutateur Mitel, Alcatel OxO et Avaya, téléphonie analogique, numérique et IP</li>
-                        </ul></div>
+                        </ul>
+                    </div>
                 </div>
                 <div class="d-flex flex-row">
                     <div class="cv_date p-2">2014 - 2010</div>

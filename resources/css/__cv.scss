@@ -17,12 +17,23 @@ main{
     .flex{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         section{
             width: 35vw;
         }
     }
     .photo{
-        width: 30vw;
+        width: 25vw;
+    }
+
+    .experience{
+        img{
+            width: 3vw;
+            height: auto;
+        }
+        li:first-child{
+            list-style: none;
+        }
     }
 }
 //------------------------------------------------------------------Ancien

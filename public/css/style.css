@@ -13,11 +13,17 @@ main {
     padding: 25px; }
   main .flex {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
     main .flex section {
       width: 35vw; }
   main .photo {
-    width: 30vw; }
+    width: 25vw; }
+  main .experience img {
+    width: 3vw;
+    height: auto; }
+  main .experience li:first-child {
+    list-style: none; }
 
 .cv_header {
   background-color: cadetblue;
