@@ -1,0 +1,79 @@
+main {
+  padding: 10px;
+  background-color: #00353F;
+  color: whitesmoke; }
+  main h4 {
+    text-align: center; }
+    main h4 span {
+      color: #F6B12D; }
+  main section {
+    margin-top: 8px;
+    border: 4px solid whitesmoke;
+    border-radius: 12px;
+    padding: 25px; }
+  main .flex {
+    display: flex;
+    flex-direction: row; }
+    main .flex section {
+      width: 35vw; }
+  main .photo {
+    width: 30vw; }
+
+.cv_header {
+  background-color: cadetblue;
+  padding: 8px; }
+  .cv_header h2 {
+    text-align: end;
+    padding-right: 25px; }
+
+.left {
+  padding-top: 100px;
+  padding-left: 6px; }
+  .left ul img {
+    width: 20px;
+    height: auto; }
+  .left li {
+    list-style: none; }
+  .left img {
+    margin: 8px; }
+  .left article {
+    margin: 25px 0; }
+
+.cv_experience {
+  margin: 6px; }
+  .cv_experience li:first-child {
+    list-style: none; }
+  .cv_experience img {
+    width: 60px;
+    height: auto; }
+  .cv_experience .cv_date {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+    background-color: #ef4444;
+    color: white;
+    margin: 2px 0;
+    border-radius: 3px; }
+
+.accueil .carousel {
+  width: 60vw;
+  height: 45vw; }
+
+.fun a {
+  text-align: center;
+  color: darkblue;
+  margin-top: 8px; }
+.fun .livre {
+  margin: 15px 0; }
+  .fun .livre img {
+    width: 100px;
+    height: 160px;
+    margin: auto; }
+.fun .film {
+  margin: 15px 0; }
+  .fun .film img {
+    width: 100px;
+    height: 160px;
+    margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
