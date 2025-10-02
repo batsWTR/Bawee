@@ -2,6 +2,8 @@ main {
   padding: 10px;
   background-color: #00353F;
   color: whitesmoke; }
+  main strong {
+    color: #F6B12D; }
   main h4 {
     text-align: center; }
     main h4 span {
@@ -18,8 +20,14 @@ main {
     justify-content: space-between; }
     main .flex section {
       width: 35vw; }
+    main .flex .right ul {
+      list-style: none; }
+      main .flex .right ul li {
+        margin: 8px; }
     main .flex .right a {
-      color: #FC4E00; }
+      color: #F6B12D;
+      font-size: 1.2rem;
+      padding: 30px; }
   main .photo {
     width: 15vw;
     height: 15vw;

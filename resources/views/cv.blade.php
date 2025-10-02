@@ -13,7 +13,7 @@
         <section class="right">
             <h4>Cont<span>act</span></h4>
             <ul>
-                <li><a href="http://bawee.fr" target="_blank">www.bawee.fr</a></li>
+                <li><a href="https://github.com/batsWTR" target="_blank">GitHub BatsWTR</a></li>
                 <li><a href="mailto:baptiste.wentzler@wanadoo.fr">baptiste.wentzler@wanadoo.fr</a></li>
                 <li><a href="tel:+33608712542">06.08.71.25.42</a></li>
                 <li><a href="https://www.google.com/maps/@46.2335583,6.4536361,16z?entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">74420 Habère-lullin France</a></li>
