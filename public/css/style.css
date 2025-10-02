@@ -14,11 +14,17 @@ main {
   main .flex {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-between; }
     main .flex section {
       width: 35vw; }
+    main .flex .right a {
+      color: #FC4E00; }
   main .photo {
-    width: 25vw; }
+    width: 15vw;
+    height: 15vw;
+    border: 4px solid whitesmoke;
+    border-radius: 50%; }
   main .experience img {
     width: 3vw;
     height: auto; }

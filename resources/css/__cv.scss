@@ -18,12 +18,24 @@ main{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
         section{
             width: 35vw;
         }
+        .right{
+            a{
+                color: $color_3;
+            }
+            //position: absolute;
+            //right: 0;
+            //float: right;
+        }
     }
     .photo{
-        width: 25vw;
+        width: 15vw;
+        height: 15vw;
+        border: 4px solid whitesmoke;
+        border-radius: 50%;
     }
 
     .experience{

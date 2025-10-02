@@ -8,10 +8,17 @@
             <h4>Etu<span>des</span></h4>
         </section>
         <div class="photo">
-            MOIiiiiiiiiiiiiiiiiiiiii
+
         </div>
-        <section>
+        <section class="right">
             <h4>Cont<span>act</span></h4>
+            <ul>
+                <li><a href="http://bawee.fr" target="_blank">www.bawee.fr</a></li>
+                <li><a href="mailto:baptiste.wentzler@wanadoo.fr">baptiste.wentzler@wanadoo.fr</a></li>
+                <li><a href="tel:+33608712542">06.08.71.25.42</a></li>
+                <li><a href="https://www.google.com/maps/@46.2335583,6.4536361,16z?entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">74420 Habère-lullin France</a></li>
+
+            </ul>
         </section>
     </div>
     <section class="about">
@@ -24,7 +31,7 @@
         <div>
             <img src="{{ asset('images/laptop.png') }}">
         </div>
-        <section>
+        <section class="right">
             <h4>Lan<span>gues</span></h4>
         </section>
     </div>
@@ -33,7 +40,7 @@
     </section>
     <section class="experience">
         <h4>Expér<span>ience</span></h4>
-        <div class="d-flex flex-row justify-between">
+        <div class="d-flex flex-row justify-content-between">
             <article>
                 <div class="mt-2">
                     <h4>2023 - <span>2025</span></h4>
