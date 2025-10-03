@@ -125,13 +125,13 @@
                     </div>
                 </div>
                 <div class="mt-2">
-                    <h4>2003 - <span>2007</span></h4>
+                    <h4>1998 - <span>2003</span></h4>
                     <div>
                         <ul>
-                            <li><img src="#" alt="Gobé"></li>
-                            <li>Technicien téléphonie mobile chez <strong>Gobé</strong></li>
-                            <li>installation et mise en service de relais de téléphonie mobile Nokia</li>
-                            <li>Installation, configuration et tests de relais GSM 2G, 3G pour SFR</li>
+                            <li><img class="rounded" src="{{ asset('images/logo/armee.png') }}"></li>
+                            <li><strong>Armée de terre</strong>, Technicien télécom au 45ème Régiment de Transmission</li>
+                            <li>Installation téléphonie courant faible et fibre optique</li>
+                            <li>Mission au Kosovo, Allemagne et Nouvelle-Calédonie</li>
                         </ul>
                     </div>
                 </div>
@@ -158,13 +158,13 @@
                     </div>
                 </div>
                 <div class="mt-2">
-                    <h4>1998 - <span>2003</span></h4>
+                    <h4>2003 - <span>2007</span></h4>
                     <div>
                         <ul>
-                            <li><img class="rounded" src="{{ asset('images/logo/armee.png') }}"></li>
-                            <li><strong>Armée de terre</strong>, Technicien télécom au 45ème Régiment de Transmission</li>
-                            <li>Installation téléphonie courant faible et fibre optique</li>
-                            <li>Mission au Kosovo, Allemagne et Nouvelle-Calédonie</li>
+                            <li><img src="#" alt="Gobé"></li>
+                            <li>Technicien téléphonie mobile chez <strong>Gobé</strong></li>
+                            <li>installation et mise en service de relais de téléphonie mobile Nokia</li>
+                            <li>Installation, configuration et tests de relais GSM 2G, 3G pour SFR</li>
                         </ul>
                     </div>
                 </div>
