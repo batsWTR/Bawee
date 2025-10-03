@@ -28,7 +28,8 @@
         <h4>A pro<span>pos</span></h4>
         <p>J'ai plus de 3 ans d'expérience en développement Php sur un ERP maison sans framework en équipe avec un dev sénior, ajout de fonctionnalitées
         quotidiennement selon les besoins des utilisateurs, gestion du Front pour plus de responsivité, scripts JS pour un peu plus d'Ajax,
-        utilisation de librairies externe via composer pour les appels API vers les autres applicatifs.</p>
+        utilisation de librairies externe via composer pour les appels API vers les autres applicatifs.<br>
+        Maintenance de la base de donnée Mysql</p>
     </section>
     <div class="flex margin-b">
         <section>
