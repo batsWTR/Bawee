@@ -10,6 +10,7 @@ class IndexController extends Controller
     {
         $ip = $request->ip();
         $sessionId = session()->getId();
+        echo $sessionId.'   '.$ip;
         return view('index');
     }
 }
