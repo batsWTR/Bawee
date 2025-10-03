@@ -3,8 +3,8 @@
 
 
 @section('main')
-    <div class="flex">
-        <section>
+    <div class="flex margin-b">
+        <section class="left">
             <h4>Etu<span>des</span></h4>
         </section>
         <div class="photo">
@@ -21,24 +21,62 @@
             </ul>
         </section>
     </div>
-    <section class="about">
+    <section class="about margin-b">
         <h4>A pro<span>pos</span></h4>
     </section>
-    <div class="flex">
+    <div class="flex margin-b">
         <section>
             <h4>Hob<span>bies</span></h4>
         </section>
         <div>
             <img src="{{ asset('images/laptop.png') }}">
         </div>
-        <section class="right">
+        <section>
             <h4>Lan<span>gues</span></h4>
         </section>
     </div>
-    <section class="competences">
+    <section class="margin-b">
         <h4>Compé<span>tences</span></h4>
+        <div class="competences">
+            <div>
+                <img src="{{ asset('images/icon/php.png') }}">
+                <p>Php</p>
+            </div>
+            <div>
+                <img src="{{ asset('images/icon/mysql.png') }}">
+                <p>MySql</p>
+            </div>
+            <div>
+                <img src="{{ asset('images/icon/laravel.png') }}">
+                <p>Laravel</p>
+            </div>
+            <div>
+                <img src="{{ asset('images/icon/html5.png') }}">
+                <p>Html 5</p>
+            </div>
+            <div>
+                <img src="{{ asset('images/icon/css3.png') }}">
+                <p>Css 3</p>
+            </div>
+            <div>
+                <img src="{{ asset('images/icon/js.png') }}">
+                <p>Javascript</p>
+            </div>
+            <div>
+                <img src="{{ asset('images/icon/sass.png') }}">
+                <p>Sass</p>
+            </div>
+            <div>
+                <img src="{{ asset('images/icon/bootstrap.png') }}">
+                <p>Bootstrap</p>
+            </div>
+            <div>
+                <img src="{{ asset('images/icon/github.png') }}">
+                <p>Github</p>
+            </div>
+        </div>
     </section>
-    <section class="experience">
+    <section class="experience margin-b">
         <h4>Expér<span>ience</span></h4>
         <div class="d-flex flex-row justify-content-between">
             <article>
