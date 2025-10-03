@@ -1,5 +1,5 @@
 @extends('layout')
-
+<script src="{{ asset('js/anim_pc.js') }}" defer></script>
 
 
 @section('main')
@@ -40,7 +40,8 @@
                 <li>Impression 3D</li>
             </ul>
         </section>
-        <div>
+        <div class="pc">
+            <div id="anim_pc"></div>
             <img src="{{ asset('images/laptop.png') }}">
         </div>
         <section>

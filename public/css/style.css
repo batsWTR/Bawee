@@ -22,6 +22,19 @@ main section {
   border-radius: 12px;
   padding: 25px;
 }
+main .pc {
+  position: relative;
+}
+main .pc div {
+  position: absolute;
+  left: 64px;
+  top: 38px;
+  width: 308px;
+  height: 181px;
+  overflow: hidden;
+  text-wrap: normal;
+  background-color: green;
+}
 main .flex {
   display: flex;
   flex-direction: row;

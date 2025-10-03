@@ -21,6 +21,19 @@ main{
         border-radius: 12px;
         padding: 25px;
     }
+    .pc{
+        position: relative;
+        div{
+            position: absolute;
+            left: 64px;
+            top: 38px;
+            width: 308px;
+            height: 181px;
+            overflow: hidden;
+            text-wrap: normal;
+            background-color: green;
+        }
+    }
     .flex{
         display: flex;
         flex-direction: row;
