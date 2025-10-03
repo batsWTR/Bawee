@@ -11,6 +11,8 @@ main strong {
 }
 main h4 {
   text-align: center;
+  margin-top: 8px;
+  margin-bottom: 18px;
 }
 main h4 span {
   color: #F6B12D;
@@ -75,52 +77,11 @@ main .competences img {
 main .competences p {
   text-align: center;
 }
-
-.cv_header {
-  background-color: cadetblue;
-  padding: 8px;
+main .about p {
+  margin-top: 40px;
 }
-.cv_header h2 {
-  text-align: end;
-  padding-right: 25px;
-}
-
-.left {
-  padding-top: 100px;
-  padding-left: 6px;
-}
-.left ul img {
-  width: 20px;
-  height: auto;
-}
-.left li {
-  list-style: none;
-}
-.left img {
-  margin: 8px;
-}
-.left article {
-  margin: 25px 0;
-}
-
-.cv_experience {
-  margin: 6px;
-}
-.cv_experience li:first-child {
-  list-style: none;
-}
-.cv_experience img {
-  width: 60px;
-  height: auto;
-}
-.cv_experience .cv_date {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  text-align: center;
-  background-color: #ef4444;
-  color: white;
-  margin: 2px 0;
-  border-radius: 3px;
+main .ul {
+  margin-top: 40px;
 }
 
 .accueil .carousel {

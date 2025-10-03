@@ -5,7 +5,10 @@
 @section('main')
     <div class="flex margin-b">
         <section class="left">
-            <h4>Etu<span>des</span></h4>
+            <h4>Etu<span>des</span> / Form<span>ations</span></h4>
+            <ul>
+                <li>BEP électronique</li>
+            </ul>
         </section>
         <div class="photo">
 
@@ -23,16 +26,29 @@
     </div>
     <section class="about margin-b">
         <h4>A pro<span>pos</span></h4>
+        <p>J'ai plus de 3 ans d'expérience en développement Php sur un ERP maison sans framework en équipe avec un dev sénior, ajout de fonctionnalitées
+        quotidiennement selon les besoins des utilisateurs, gestion du Front pour plus de responsivité, scripts JS pour un peu plus d'Ajax,
+        utilisation de librairies externe via composer pour les appels API vers les autres applicatifs.</p>
     </section>
     <div class="flex margin-b">
         <section>
             <h4>Hob<span>bies</span></h4>
+            <ul class="ul">
+                <li>Vtt</li>
+                <li>Les ARM d'atmel</li>
+                <li>Impression 3D</li>
+            </ul>
         </section>
         <div>
             <img src="{{ asset('images/laptop.png') }}">
         </div>
         <section>
             <h4>Lan<span>gues</span></h4>
+            <ul class="ul">
+                <li>Français</li>
+                <li>Anglais B2</li>
+                <li>Klingon (mais sous la torture)</li>
+            </ul>
         </section>
     </div>
     <section class="margin-b">
