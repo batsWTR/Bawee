@@ -9,4 +9,5 @@ arr.forEach((el)=>{
     fenetre.innerText = fenetre.innerText + el;
 });
 
+repeatedGreetingsLoop()
 //fenetre.innerText = "blablablablablablablablablablablabla blablablablabl<br>ablablablablablablablablablablabla et ruc muche un truc ca va hello";
