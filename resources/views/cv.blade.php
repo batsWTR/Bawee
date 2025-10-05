@@ -30,7 +30,7 @@
         utilisation de librairies externe via composer pour les appels API vers les autres applicatifs.<br>
         Maintenance de la base de donnée Mysql</p>
     </section>
-    <div class="flex margin-b">
+    <div class="flex margin-b middle">
         <section>
             <h4>Hob<span>bies</span></h4>
             <ul class="ul">
@@ -94,7 +94,7 @@
         </div>
     </section>
     <section class="experience margin-b">
-        <h4>Expér<span>ience</span></h4>
+        <h4>Expér<span>iences</span></h4>
         <div class="d-flex flex-row justify-content-between">
             <article>
                 <div class="mt-2">

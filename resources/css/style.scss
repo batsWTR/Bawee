@@ -4,6 +4,17 @@
 @import '_fun';
 
 
-body{
+header{
+    img{
+        width: 64px;
+        height: auto;
+        margin-right: 15px;
+    }
+    a{
+        img{
+            width: 24px;
+            height: auto;
+        }
+    }
 
 }

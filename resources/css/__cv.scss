@@ -21,29 +21,30 @@ main{
         border-radius: 12px;
         padding: 25px;
     }
-    .pc{
-        position: relative;
-        div{
-            position: absolute;
-            left: 64px;
-            top: 38px;
-            width: 308px;
-            height: 181px;
-            overflow: hidden;
-            text-wrap: wrap;
-            //background-color: green;
+    .middle{
+        section{
+            width: 36vw;
+        }
+        .pc{
+            position: relative;
+            div{
+                position: absolute;
+                left: 64px;
+                top: 38px;
+                width: 308px;
+                height: 181px;
+                overflow: hidden;
+                text-wrap: wrap;
+                //background-color: green;
+            }
         }
     }
     .flex{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-between;
-        section{
-            width: 32vw;
-        }
         .left, .right{
-            width: 42vw;
+            width: 44vw;
         }
         .right{
             ul{
