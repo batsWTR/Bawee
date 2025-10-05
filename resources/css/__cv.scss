@@ -30,7 +30,7 @@ main{
             width: 308px;
             height: 181px;
             overflow: hidden;
-            text-wrap: normal;
+            text-wrap: wrap;
             //background-color: green;
         }
     }
@@ -60,13 +60,15 @@ main{
         }
     }
     .photo{
-        width: 20vw;
-        height: 20vw;
+        width: 290px;
+        height: 290px;
         left: 50%;
         z-index:99;
         background-color: $color_1;
         transform: translate(-50%);
         border: 4px solid whitesmoke;
+        background-image: url("../images/moi.png");
+        background-size: contain;
         border-radius: 50%;
         position: absolute;
     }

@@ -11,7 +11,6 @@
             </ul>
         </section>
         <div class="photo">
-
         </div>
         <section class="right">
             <h4>Cont<span>act</span></h4>
@@ -42,7 +41,7 @@
         </section>
         <div class="pc">
             <div id="anim_pc"></div>
-            <img src="{{ asset('images/laptop.png') }}">
+            <img src="{{ asset('images/laptop.png') }}" alt="laptop">
         </div>
         <section>
             <h4>Lan<span>gues</span></h4>
@@ -57,39 +56,39 @@
         <h4>Compé<span>tences</span></h4>
         <div class="competences">
             <div>
-                <img src="{{ asset('images/icon/php.png') }}">
+                <img src="{{ asset('images/icon/php.png') }}" alt="php">
                 <p>Php</p>
             </div>
             <div>
-                <img src="{{ asset('images/icon/mysql.png') }}">
+                <img src="{{ asset('images/icon/mysql.png') }}" alt="mysql">
                 <p>MySql</p>
             </div>
             <div>
-                <img src="{{ asset('images/icon/laravel.png') }}">
+                <img src="{{ asset('images/icon/laravel.png') }}" alt="laravel">
                 <p>Laravel</p>
             </div>
             <div>
-                <img src="{{ asset('images/icon/html5.png') }}">
+                <img src="{{ asset('images/icon/html5.png') }}" alt="html">
                 <p>Html 5</p>
             </div>
             <div>
-                <img src="{{ asset('images/icon/css3.png') }}">
+                <img src="{{ asset('images/icon/css3.png') }}" alt="css">
                 <p>Css 3</p>
             </div>
             <div>
-                <img src="{{ asset('images/icon/js.png') }}">
+                <img src="{{ asset('images/icon/js.png') }}" alt="javascript">
                 <p>Javascript</p>
             </div>
             <div>
-                <img src="{{ asset('images/icon/sass.png') }}">
+                <img src="{{ asset('images/icon/sass.png') }}" alt="sass">
                 <p>Sass</p>
             </div>
             <div>
-                <img src="{{ asset('images/icon/bootstrap.png') }}">
+                <img src="{{ asset('images/icon/bootstrap.png') }}" alt="bootstrap">
                 <p>Bootstrap</p>
             </div>
             <div>
-                <img src="{{ asset('images/icon/github.png') }}">
+                <img src="{{ asset('images/icon/github.png') }}" alt="github">
                 <p>Github</p>
             </div>
         </div>
@@ -102,7 +101,7 @@
                     <h4>2023 - <span>2025</span></h4>
                     <div>
                         <ul>
-                            <li><img class="rounded" src="{{ asset('images/logo/peggysage.png') }}"></li>
+                            <li><img class="rounded" src="{{ asset('images/logo/peggysage.png') }}" alt="peggysage"></li>
                             <li>Développeur php ERP MyPeggy au sein de la société <strong>PeggySage</strong></li>
                             <li>Maintenance et développement sur l'ERP maison crée par la société Ab6s</li>
                             <li>Interfaçage avec API Rest,SOAP,EDI entre l'ERP et WMS,PLM et logiciel de caisse Cégid</li>
@@ -118,7 +117,7 @@
                     <h4>2010 - <span>2014</span></h4>
                     <div>
                         <ul>
-                            <li><img class="rounded" src="{{ asset('images/logo/cern.png') }}"></li>
+                            <li><img class="rounded" src="{{ asset('images/logo/cern.png') }}" alt="cern"></li>
                             <li>Technicien radio/télécom au <strong>CERN</strong> au département IT/CS, déploiement du système radio Tétra</li>
                             <li>Déploiement d'un système bluetooth de géolocalisation indoor</li>
                             <li>Réalisation de documentation, configuration de switchs, bornes wi-fi</li>
@@ -129,7 +128,7 @@
                     <h4>1998 - <span>2003</span></h4>
                     <div>
                         <ul>
-                            <li><img class="rounded" src="{{ asset('images/logo/armee.png') }}"></li>
+                            <li><img class="rounded" src="{{ asset('images/logo/armee.png') }}" alt="armée de terre"></li>
                             <li><strong>Armée de terre</strong>, Technicien télécom au 45ème Régiment de Transmission</li>
                             <li>Installation téléphonie courant faible et fibre optique</li>
                             <li>Mission au Kosovo, Allemagne et Nouvelle-Calédonie</li>
@@ -142,7 +141,7 @@
                     <h4>2015 - <span>2020</span></h4>
                     <div>
                         <ul>
-                            <li><img class="rounded" src="{{ asset('images/logo/alpcom.png') }}"></li>
+                            <li><img class="rounded" src="{{ asset('images/logo/alpcom.png') }}" alt="alpcom"></li>
                             <li>Technicien SAV pour la société <strong>Alpcom</strong></li>
                             <li>Dépannage d'autocommutateur Mitel, Alcatel OxO et Avaya, téléphonie analogique, numérique et IP</li>
                         </ul>
@@ -152,7 +151,7 @@
                     <h4>2008 - <span>2009</span></h4>
                     <div>
                         <ul>
-                            <li><img class="rounded" src="{{ asset('images/logo/sdis.png') }}"></li>
+                            <li><img class="rounded" src="{{ asset('images/logo/sdis.png') }}" alt="sdis"></li>
                             <li>Installation ADSL pour le <strong>SDIS</strong> de haute savoie</li>
                             <li>Installation du système radio ANTARES avec la société SYSTEL</li>
                         </ul>
