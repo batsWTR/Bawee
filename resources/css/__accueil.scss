@@ -8,3 +8,14 @@
     }
 
 }
+
+//------------------------------------ Media queries
+
+@media screen and (max-width: 1068px) {
+    .accueil{
+        .carousel{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
