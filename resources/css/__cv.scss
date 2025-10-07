@@ -76,6 +76,11 @@ main{
     }
 
     .experience{
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
         img{
             width: 3vw;
             height: auto;
@@ -114,14 +119,34 @@ main{
 @media screen and (max-width: 1068px){
     main{
         .photo{
-            position: relative;
-            top: 0px;
+            position: absolute;
+            top: 90px;
         }
         .flex{
             display: flex;
             flex-direction: column-reverse;
             .left,.right{
                 width: 100%;
+            }
+            .right{
+                margin-top: 320px;
+            }
+        }
+        .middle{
+            section{
+                width: 100%;
+            }
+            .pc{
+                img{
+                    display: block;
+                    margin: auto;
+                }
+            }
+        }
+        .experience{
+            div{
+                display: flex;
+                flex-direction: column;
             }
         }
     }

@@ -95,7 +95,7 @@
     </section>
     <section class="experience margin-b">
         <h4>Expér<span>iences</span></h4>
-        <div class="d-flex flex-row justify-content-between">
+        <div>
             <article>
                 <div class="mt-2">
                     <h4>2023 - <span>2025</span></h4>
