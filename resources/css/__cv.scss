@@ -1,3 +1,4 @@
+
 main{
     padding: 10px;
     background-color: $color_1;
@@ -108,4 +109,21 @@ main{
 
 }
 
+//------------------------------------ Media queries
 
+@media screen and (max-width: 1068px){
+    main{
+        .photo{
+            position: relative;
+            top: 0px;
+        }
+        .flex{
+            display: flex;
+            flex-direction: column-reverse;
+            .left,.right{
+                width: 100%;
+            }
+        }
+    }
+
+}

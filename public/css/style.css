@@ -75,6 +75,15 @@ main {
   main .ul {
     margin-top: 40px; }
 
+@media screen and (max-width: 1068px) {
+  main .photo {
+    position: relative;
+    top: 0px; }
+  main .flex {
+    display: flex;
+    flex-direction: column-reverse; }
+    main .flex .left, main .flex .right {
+      width: 100%; } }
 .accueil .carousel {
   width: 35vw;
   height: 35vw; }
