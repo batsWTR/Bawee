@@ -24,6 +24,9 @@
                             <a class="nav-link" aria-current="page" href="{{ route('pdf') }}"><img src="{{ asset('images/download.webp') }}" class="rounded-circle"></a>
                         </li>
                     @endif
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="{{ route('contact') }}">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>

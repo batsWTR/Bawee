@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\CvController;
 use App\Http\Controllers\FunController;
+use \App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,4 +22,6 @@ Route::get('/mon_cv',[CvController::class, 'index'])->name('cv');
 Route::get('/pdf', [CvController::class, 'pdf'])->name('pdf');
 
 Route::get('/fun', [FunController::class, 'index'])->name('fun');
+
+Route::get('/contact',[ContactController::class, 'show'])->name('contact');
 
