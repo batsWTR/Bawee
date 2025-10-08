@@ -169,4 +169,11 @@ header a img {
   height: auto;
 }
 
+body {
+  height: 100%;
+}
+body main {
+  min-height: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

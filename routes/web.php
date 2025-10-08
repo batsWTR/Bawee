@@ -24,4 +24,5 @@ Route::get('/pdf', [CvController::class, 'pdf'])->name('pdf');
 Route::get('/fun', [FunController::class, 'index'])->name('fun');
 
 Route::get('/contact',[ContactController::class, 'show'])->name('contact');
+Route::post('/contact',[ContactController::class, 'store'])->name('contact.store');
 
