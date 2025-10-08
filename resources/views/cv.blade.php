@@ -97,7 +97,7 @@
         <h4>Expér<span>iences</span></h4>
         <div>
             <article>
-                <div class="mt-2">
+                <div class="mt-2 d-flex flex-column">
                     <h4>2023 - <span>2025</span></h4>
                     <div>
                         <ul>
@@ -113,7 +113,17 @@
                         </ul>
                     </div>
                 </div>
-                <div class="mt-2">
+                <div class="mt-2 d-flex flex-column">
+                    <h4>2015 - <span>2020</span></h4>
+                    <div>
+                        <ul>
+                            <li><img class="rounded" src="{{ asset('images/logo/alpcom.png') }}" alt="alpcom"></li>
+                            <li>Technicien SAV pour la société <strong>Alpcom</strong></li>
+                            <li>Dépannage d'autocommutateur Mitel, Alcatel OxO et Avaya, téléphonie analogique, numérique et IP</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-2 d-flex flex-column">
                     <h4>2010 - <span>2014</span></h4>
                     <div>
                         <ul>
@@ -124,30 +134,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="mt-2">
-                    <h4>1998 - <span>2003</span></h4>
-                    <div>
-                        <ul>
-                            <li><img class="rounded" src="{{ asset('images/logo/armee.png') }}" alt="armée de terre"></li>
-                            <li><strong>Armée de terre</strong>, Technicien télécom au 45ème Régiment de Transmission</li>
-                            <li>Installation téléphonie courant faible et fibre optique</li>
-                            <li>Mission au Kosovo, Allemagne et Nouvelle-Calédonie</li>
-                        </ul>
-                    </div>
-                </div>
             </article>
             <article>
-                <div class="mt-2">
-                    <h4>2015 - <span>2020</span></h4>
-                    <div>
-                        <ul>
-                            <li><img class="rounded" src="{{ asset('images/logo/alpcom.png') }}" alt="alpcom"></li>
-                            <li>Technicien SAV pour la société <strong>Alpcom</strong></li>
-                            <li>Dépannage d'autocommutateur Mitel, Alcatel OxO et Avaya, téléphonie analogique, numérique et IP</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="mt-2">
+                <div class="mt-2 d-flex flex-column">
                     <h4>2008 - <span>2009</span></h4>
                     <div>
                         <ul>
@@ -157,7 +146,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="mt-2">
+                <div class="mt-2 d-flex flex-column">
                     <h4>2003 - <span>2007</span></h4>
                     <div>
                         <ul>
@@ -165,6 +154,17 @@
                             <li>Technicien téléphonie mobile chez <strong>Gobé</strong></li>
                             <li>installation et mise en service de relais de téléphonie mobile Nokia</li>
                             <li>Installation, configuration et tests de relais GSM 2G, 3G pour SFR</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-2 d-flex flex-column">
+                    <h4>1998 - <span>2003</span></h4>
+                    <div>
+                        <ul>
+                            <li><img class="rounded" src="{{ asset('images/logo/armee.png') }}" alt="armée de terre"></li>
+                            <li><strong>Armée de terre</strong>, Technicien télécom au 45ème Régiment de Transmission</li>
+                            <li>Installation téléphonie courant faible et fibre optique</li>
+                            <li>Mission au Kosovo, Allemagne et Nouvelle-Calédonie</li>
                         </ul>
                     </div>
                 </div>
