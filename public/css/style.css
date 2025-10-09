@@ -172,6 +172,9 @@ header a img {
 body {
   height: 100%;
 }
+body h4 {
+  font-family: cursive;
+}
 body main {
   min-height: 100%;
 }
