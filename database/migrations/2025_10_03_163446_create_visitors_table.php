@@ -15,11 +15,12 @@ return new class extends Migration
             $table->id();
             $table->string('visitor_id', length: 55)->unique();
             $table->string('ip', length: 16);
-            $table->string('country', length: 35);
-            $table->string('city', length: 35);
-            $table->string('isp', length: 35);
-            $table->float('lat');
-            $table->float('lon');
+            $table->string('country', length: 35)->nullable();
+            $table->string('city', length: 35)->nullable();
+            $table->string('isp', length: 35)->nullable();
+            $table->string('user_agent');
+            $table->float('lat')->nullable();
+            $table->float('lon')->nullable();
             $table->boolean('cv_downloaded')->default(False);
             $table->timestamps();
         });
