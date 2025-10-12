@@ -83,21 +83,38 @@ main {
   main .photo {
     position: absolute;
     top: 90px; }
+  main .pc img {
+    width: 100%;
+    max-width: 442px;
+    height: auto; }
   main .flex {
     display: flex;
     flex-direction: column-reverse; }
     main .flex .left, main .flex .right {
       width: 100%; }
     main .flex .right {
-      margin-top: 320px; }
+      margin-top: 320px;
+      padding: 5px;
+      margin-bottom: 25px; }
+      main .flex .right ul {
+        margin: auto;
+        padding: 0; }
   main .middle section {
     width: 100%; }
   main .middle .pc img {
     display: block;
     margin: auto; }
+  main .competences img {
+    width: 8vw;
+    height: auto; }
   main .experience div {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  main .experience li:first-child {
+    text-align: center; }
+  main .experience img {
+    width: 8vw;
+    height: auto; } }
 .accueil .carousel {
   width: 35vw;
   height: 35vw; }

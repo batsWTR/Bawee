@@ -122,6 +122,16 @@ main{
             position: absolute;
             top: 90px;
         }
+        .pc{
+            #anim_pc{
+                //margin: auto;
+            }
+            img{
+                width: 100%;
+                max-width: 442px;
+                height: auto;
+            }
+        }
         .flex{
             display: flex;
             flex-direction: column-reverse;
@@ -130,6 +140,12 @@ main{
             }
             .right{
                 margin-top: 320px;
+                padding: 5px;
+                margin-bottom: 25px;
+                ul{
+                    margin: auto;
+                    padding: 0;
+                }
             }
         }
         .middle{
@@ -143,10 +159,23 @@ main{
                 }
             }
         }
+        .competences{
+            img{
+                width: 8vw;
+                height: auto;
+            }
+        }
         .experience{
             div{
                 display: flex;
                 flex-direction: column;
+            }
+            li:first-child{
+                text-align: center;
+            }
+            img{
+                width: 8vw;
+                height: auto;
             }
         }
     }
