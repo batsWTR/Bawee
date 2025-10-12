@@ -29,6 +29,11 @@ class IndexController extends Controller
             ]);
         }
 
+
+        //$visitor = Visitor::find(1);
+         //   var_dump($visitor->messages());
+
+
         return view('index');
     }
 }

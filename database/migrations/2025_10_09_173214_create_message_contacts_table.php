@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('message_contacts', function (Blueprint $table) {
             $table->id();
+            $table->string('visitor_id');
+            $table->foreign('visitor_id')->references('visitor_id')->on('visitors')->onDelete('cascade');
+            $table->string("email");
+            $table->text("message");
             $table->timestamps();
         });
     }

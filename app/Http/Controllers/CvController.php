@@ -31,7 +31,7 @@ class CvController extends Controller
         return view('cv');
     }
 
-    public function pdf(){
+    public function pdf(Request $request){
         $ip = $request->ip();
         $session_id = session()->getId();
         if(!Visitor::where('visitor_id',$session_id)->exists())

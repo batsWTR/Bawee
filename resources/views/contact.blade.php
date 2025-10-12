@@ -1,7 +1,6 @@
 @extends('layout')
 <script src="{{ asset('js/anim_pc.js') }}" defer></script>
 
-
 @section('main')
     @if($errors->any())
         <div class="alert alert-danger w-50 m-auto">
